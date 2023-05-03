@@ -1,23 +1,19 @@
-# @matheus-rodrigues00/sanitize
-[![npm (scoped)](https://img.shields.io/npm/v/@matheus-rodrigues00/sanitize?label=sanitize&logo=sanitize)](https://www.npmjs.com/package/@matheus-rodrigues00/sanitize)
+# @teteu/rng
+[![npm (scoped)](https://img.shields.io/npm/v/@teteu/rng?label=rng&logo=rng)](https://www.npmjs.com/package/@teteu/rng)
 
-Sanitizes a string removing sql keywords
+Fun library to generate random numbers in any shape or form
 
-## Install
+## Run
 
-```bash
-npm install @matheus-rodrigues00/sanitize
+```
+npx @teteu/rng
+```
+or
+```
+npm i -g @teteu/rng
+rng
 ```
 
 ## Usage
 
-```js
-const sanitize = require("@matheus-rodrigues00/sanitize");
-
-const input = "login: drop table";
-
-const str = sanitize(input);
-
-console.log(str);
-//=> "login:"
-```
+Pretty simple, run the command and pick the game.

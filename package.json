@@ -1,6 +1,6 @@
 {
     "name": "@teteu/rng",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A random number generator in form of games for the terminal",
     "main": "index.js",
     "scripts": {
